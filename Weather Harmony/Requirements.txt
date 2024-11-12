@@ -1,0 +1,14 @@
+1.Hardware requirements
+	• DHT 22 temperature  sensor
+	• ESP32 module
+	• Motor
+	• Fan
+	• Jumper wires 
+	• Motor Driver 
+	• Micro-usb to USB cable 
+
+2.Software requirements 
+	• Arduino IDE
+	• XAMPP Controller
+	• MySQL 
+	• Java IDE

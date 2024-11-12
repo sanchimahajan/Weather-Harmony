@@ -1,0 +1,19 @@
+To create sql table: -
+
+CREATE TABLE motor_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    temperature FLOAT,
+    motor_speed INT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+id: An auto-incrementing primary key.
+temperature: Stores the temperature as a floating-point number.
+motor_speed: Stores the motor speed as an integer.
+timestamp: Automatically stores the time when the row is inserted.
+
+To view table: -
+	SELECT * FROM motor_data;
+
+To delete all rows (data collected by sensors in database): -
+	TRUNCATE TABLE motor_data;
